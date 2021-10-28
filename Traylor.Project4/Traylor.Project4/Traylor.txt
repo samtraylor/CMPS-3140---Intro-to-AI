@@ -1,0 +1,26 @@
+Finished in 362msec
+Running Traylor.weddingseating.mzn with Traylor.Example.dzn
+Table: Guests:
+   1 : {20,21,23,24}
+   2 : {14,17,18,19}
+   3 : {9,10,11,22}
+   4 : {7,13,15,16}
+   5 : {4,6,8,12}
+   6 : {1,2,3,5}
+Utilitarian Happiness: 0
+Egalitarian Happiness: 0
+----------
+----------
+==========
+%%%mzn-stat: initTime=0.03266
+%%%mzn-stat: solveTime=0.010496
+%%%mzn-stat: solutions=1
+%%%mzn-stat: variables=1926
+%%%mzn-stat: propagators=1983
+%%%mzn-stat: propagations=17403
+%%%mzn-stat: nodes=18
+%%%mzn-stat: failures=6
+%%%mzn-stat: restarts=0
+%%%mzn-stat: peakDepth=12
+%%%mzn-stat-end
+Finished in 294msec

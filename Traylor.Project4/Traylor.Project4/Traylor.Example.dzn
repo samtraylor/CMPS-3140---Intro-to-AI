@@ -1,0 +1,53 @@
+%Wedding Seat Example File.
+%Evaluation (0 = Utilitarian, 1 = Egalitarian)
+Evaluation = 0;
+
+%Number of Tables
+nTables = 6;
+
+%Number of Seats per Table:
+nSeats = 4;
+
+%Number of Guests:
+nGuests = 24;
+
+nGroups = 6;
+%Groups that Must be seated together
+Groups = [{2, 3},
+  {1, 5},
+  {11, 22},
+  {4, 8, 12},
+  {6, 12},
+  {9, 10}];
+
+%Pref Weight
+PrefWeight = 4;
+%Preference Graph: Row i is the person that Guest i would like to sit with.
+%There must be as many rows as nGuests.
+Pref = [{3, 6, 12, 13, 18, 22},
+ {5, 9, 12, 16, 19},
+ {2, 4, 9, 17, 23},
+ {5, 6, 11, 15, 18, 24},
+ {1, 4, 16, 19, 23},
+ {7, 8},
+ {1, 13},
+ {10, 12, 13},
+ {2, 3, 10},
+ {6, 8, 9, 11},
+ {5, 6, 13, 14, 15, 21},
+ {8, 9, 23},
+ {6, 10, 22},
+ {6, 11, 17, 24},
+ {2, 9, 12, 16, 23},
+ {2, 5, 9},
+ {11, 15, 19},
+ {4, 21},
+ {8, 20, 21},
+ {14, 22},
+ {5, 23},
+ {11},
+ {6, 17, 24},
+ {4, 13, 23}];
+
+%Troublemakers
+Trouble = {2, 7, 10, 14,};

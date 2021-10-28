@@ -1,0 +1,30 @@
+% Author:  Nicholas Mattei, Tulane University, 2020.
+%
+% These example programs were prepared for teaching MiniZinc as 
+% part of an introduction to artificial intelligence course.  
+% Most of these programs are more well documented versions of 
+% elements from the MiniZinc Tutorial available at https://www.minizinc.org/.  
+% Note that these go roughly in order of the lectures available from the 
+% Univ. of Melbourne as part of the Discrete Optimization course 
+% https://www.coursera.org/learn/discrete-optimization.
+% Please do not republish without this header and attribution. 
+%
+
+% Example input file for Sodoku Program
+
+% Initial Puzzle Setup
+
+PuzzleStart=[|
+0, 0, 0, 	0, 0, 0, 	0, 0, 0|
+0, 0, 8, 	4, 0, 1, 	0, 7, 0|
+0, 0, 0, 	0, 8, 5, 	0, 3, 0|
+
+0, 2, 6, 	8, 0, 9, 	0, 4, 0|
+0, 0, 7, 	0, 0, 0, 	9, 0, 0|
+0, 5, 0, 	1, 0, 6, 	3, 2, 0|
+
+0, 4, 0, 	6, 1, 0, 	0, 0, 0|
+0, 3, 0, 	2, 0, 7, 	6, 9, 0|
+0, 0, 0, 	0, 0, 0, 	0, 0, 0|]; 
+
+
